@@ -23,10 +23,16 @@ metadata:
 1. Определи серию: ЕСКД (2.x) / ЕСПД (19.x) / ОКР (15.x) / ЕСТД (3.x) / АС (34.x)
 2. **Обязательно** вызови `search` перед ссылкой на конкретный ГОСТ
 3. Загрузи при необходимости:
-   - `references/search-strategy.md`
-   - `references/citation-rules.md`
-   - `references/eskd-index.md` / `espd-index.md` / `okr-index.md`
-   - `references/tz-structure-okr-product.md` — при генерации ТЗ профиля okr_product
+   - `search-strategy.md`
+   - `citation-rules.md`
+   - `eskd-index.md` / `espd-index.md` / `okr-index.md`
+   - `tz-structure-okr-product.md` — при генерации ТЗ профиля okr_product
+   - `tz-structure-okr-software.md` — при генерации ТЗ профиля okr_software
+   - `tz-structure-okr-mixed-product.md` — при генерации ТЗ профиля okr_mixed_product
+   - `tz-structure-standalone-software.md` — при генерации ТЗ профиля standalone_software
+   - `tz-structure-standalone-hardware.md` — при генерации ТЗ профиля standalone_hardware
+   - `tz-structure-as-system.md` — при генерации ТЗ профиля as_system
+   - `tz-structure-custom.md` — при генерации ТЗ профиля custom
 4. Ответ: вывод + ГОСТ + пункт (если известен) + редакция + URL источника
 
 ## DOCX для ТЗ
