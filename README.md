@@ -97,6 +97,7 @@ flowchart TB
 |------|------------|
 | `SOUL.md` | Системный промпт, роль «Гефест», развилка режимов |
 | `config-patch.yaml` | Фрагмент для merge в `/opt/hermes/data/config.yaml` |
+| `tz-structure-*.md` | Структуры ТЗ по профилям документа |
 | `skills/gost-consultant/` | Skill: ГОСТ, структура ТЗ, references |
 | `scripts/generate_tz_docx.py` | Генерация `.docx` (python-docx) |
 | `scripts/deploy-to-vm.ps1` | Деплой артефактов на Vibe VM |
@@ -120,6 +121,18 @@ platform_toolsets:
     - search      # проверка ГОСТ в интернете
     - hermes-cli  # terminal для generate_tz_docx.py
 ```
+
+## Профили ТЗ
+
+| Профиль | Файл |
+|---------|------|
+| `okr_product` | `tz-structure-okr-product.md` |
+| `okr_software` | `tz-structure-okr-software.md` |
+| `okr_mixed_product` | `tz-structure-okr-mixed-product.md` |
+| `standalone_software` | `tz-structure-standalone-software.md` |
+| `standalone_hardware` | `tz-structure-standalone-hardware.md` |
+| `as_system` | `tz-structure-as-system.md` |
+| `custom` | `tz-structure-custom.md` |
 
 ## Docx
 
